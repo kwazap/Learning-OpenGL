@@ -7,8 +7,8 @@ namespace test {
 	class TestClearColor : public Test
 	{
 	public:
-		TestClearColor() {};
-		~TestClearColor() {};
+		TestClearColor();
+		~TestClearColor();
 
 		void OnUpdate(float deltaTime) override;
 		void OnRender() override;
